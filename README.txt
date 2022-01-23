@@ -6,21 +6,25 @@ Lista de compras
 
 Adicionar item
  |_nome______| 
+ |_categoria______| 
  |_preço______|
  |_quantidade______|
-( + )
+( adicionar )
 __________________________________
-|                                                          |
+|  //Exibir lista por categorias  |
 
-item              -       preço           - quantidade       - valor parcial
-item              -       preço           - quantidade       - valor parcial
-item              -       preço           - quantidade       - valor parcial
-item              -       preço           - quantidade       - valor parcial
-item              -       preço           - quantidade       - valor parcial
-item              -       preço           - quantidade       - valor parcial
-item              -       preço           - quantidade       - valor parcial
+( Todos os produtos)  ( Carnes )  ( Não perecíveis )  ( Hig. & Limp. )  ( Bebidas )  ( Hortifruit ) ( Doces )   
+__________________________________
+|                                 |
 
-valor total = 
+item              -       categoria      -         quantidade           -       preço unitário       -      preço total           -       excluir(-)
+item              -       categoria      -         quantidade           -       preço unitário       -      preço total           -       excluir(-)
+item              -       categoria      -         quantidade           -       preço unitário       -      preço total           -       excluir(-)
+(...)
+valor total      -       R$                -
+
+
+
 
 
 
