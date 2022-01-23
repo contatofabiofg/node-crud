@@ -17,9 +17,9 @@ __________________________________
 __________________________________
 |                                 |
 
-item              -       categoria      -         quantidade           -       preço unitário       -      preço total           -       excluir(-)
-item              -       categoria      -         quantidade           -       preço unitário       -      preço total           -       excluir(-)
-item              -       categoria      -         quantidade           -       preço unitário       -      preço total           -       excluir(-)
+item              -       categoria      -         quantidade       ^ v    -       preço unitário       -      preço total           -       excluir(-)
+item              -       categoria      -         quantidade       ^ v    -       preço unitário       -      preço total           -       excluir(-)
+item              -       categoria      -         quantidade       ^ v    -       preço unitário       -      preço total           -       excluir(-)
 (...)
 valor total      -       R$                -
 
