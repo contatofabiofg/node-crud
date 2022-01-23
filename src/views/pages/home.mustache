@@ -1,0 +1,27 @@
+
+{{>partials/header}}
+
+
+<form class="formarea" method="POST">
+<h2>Adicionar produto</h2>
+<input type="text" name="produto" placeholder="Nome do produto"/> <br>
+<select name="categoria">
+<option value="Carnes">Carnes</option>
+<option value="N. Perecíveis">Não-perecíveis</option>
+<option value="Hig. & Limp.">Higiene e Limpeza</option>
+<option value="Bebidas">Bebidas</option>
+<option value="Hortifruit">Hortifruit</option>
+<option value="Doces">Doces</option>
+</select>
+<br>
+<input type="number" name="quantidade" placeholder="Quantidade"/> <br>
+<input type="number" step="0.01" name="preco" placeholder="Preço"/> <br>
+<button type="submit">adicionar</button>
+</form>
+
+{{>partials/catbuttons}}
+
+{{>pages/allproducts}}
+
+
+{{>partials/footer}}

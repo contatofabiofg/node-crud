@@ -1,0 +1,30 @@
+{{! Por aqui eu faço um loop, buscando a tabela notas e exibindo cada um dos dados }}
+<hr/>
+<table>
+<tr class="guidetable">
+<td>Produto</td>
+<td>Categoria</td>
+<td>Quantidade</td>
+<td>Preço unit.</td>
+<td>Preço total</td>
+<td>Excluir</td>
+</tr>
+{{#listadeprodutos}} {{!Aqui eu acesso a tabela que vem do CONTROLS e uso "titulo" e "texto por que fiz no MODELS"}}
+<tr>
+<td>{{produto}}</td>
+<td>{{categoria}}</td>
+<td class="quantidade">{{quantidade}} <div class="arrows">
+<a href="/produto/{{id}}/mais"><img class="arrow" src="/images/arrowup.png" /></a>
+<a href="/produto/{{id}}/menos"><img class="arrow" src="/images/arrowdown.png" /></a> </div></td>
+<td>R$ {{preco}}</td>
+<td>R$ {{precoparcial}}</td>
+<td><a href="/produto/{{id}}/excluir"><img class="delete" src="/images/delete.png" /></a></td>
+{{/listadeprodutos}}
+</tr>
+
+<tr>
+<td>Total</td>
+<td>R$ {{precototal}}</td>
+</tr>
+</table>
+    
